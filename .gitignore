@@ -1,0 +1,49 @@
+# Python Virtual Environment
+venv/
+.env/
+.venv/
+env/
+
+# Python Bytecode and Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+*.env
+
+# Flask-Specific Files
+instance/
+*.sqlite
+*.db
+
+# Dependency Lock Files (if not needed)
+Pipfile.lock
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# System Files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Logs and Temporary Files
+*.log
+*.log.*
+*.tmp
+temp/
+
+# Testing and Coverage
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Build and Distribution
+build/
+dist/
+*.egg-info/
